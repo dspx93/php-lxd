@@ -25,7 +25,7 @@ class PathPrepend implements Plugin
     /**
      * {@inheritdoc}
      */
-    public function handleRequest(RequestInterface $request, callable $next, callable $first)
+    public function handleRequest(RequestInterface $request, callable $next, callable $first) : \Http\Promise\Promise
     {
         $currentPath = $request->getUri()->getPath();
         $uri = $request->getUri()->withPath($this->path.$currentPath);

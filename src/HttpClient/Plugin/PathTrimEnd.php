@@ -23,7 +23,7 @@ class PathTrimEnd implements Plugin
     /**
      * {@inheritdoc}
      */
-    public function handleRequest(RequestInterface $request, callable $next, callable $first)
+    public function handleRequest(RequestInterface $request, callable $next, callable $first) : \Http\Promise\Promise
     {
         $trimPath = rtrim($request->getUri()->getPath(), $this->trim);
         $uri = $request->getUri()->withPath($trimPath);
