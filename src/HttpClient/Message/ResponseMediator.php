@@ -1,5 +1,5 @@
 <?php
-namespace Opensaucesystems\Lxd\HttpClient\Message;
+namespace Dspx93\Lxd\HttpClient\Message;
 
 use Psr\Http\Message\ResponseInterface;
 
@@ -28,7 +28,7 @@ class ResponseMediator
 
         return $body;
     }
-    
+
     /**
      * Get the value for a single header
      * @param ResponseInterface $response

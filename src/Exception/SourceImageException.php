@@ -1,6 +1,6 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Exception;
+namespace Dspx93\Lxd\Exception;
 
 use Exception;
 

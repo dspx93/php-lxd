@@ -1,6 +1,6 @@
 <?php
 
-namespace Opensaucesystems\Lxd\HttpClient\Plugin;
+namespace Dspx93\Lxd\HttpClient\Plugin;
 
 use Http\Client\Common\Plugin;
 use Psr\Http\Message\RequestInterface;

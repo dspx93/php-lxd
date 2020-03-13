@@ -1,8 +1,8 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Endpoint;
+namespace Dspx93\Lxd\Endpoint;
 
-use Opensaucesystems\Lxd\Exception\OperationException;
+use Dspx93\Lxd\Exception\OperationException;
 
 class Operations extends AbstructEndpoint
 {

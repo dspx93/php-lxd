@@ -1,8 +1,8 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Endpoint\Images;
+namespace Dspx93\Lxd\Endpoint\Images;
 
-use Opensaucesystems\Lxd\Endpoint\AbstructEndpoint;
+use Dspx93\Lxd\Endpoint\AbstructEndpoint;
 
 class Aliases extends AbstructEndpoint
 {

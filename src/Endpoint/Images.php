@@ -1,8 +1,8 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Endpoint;
+namespace Dspx93\Lxd\Endpoint;
 
-use Opensaucesystems\Lxd\Exception\InvalidEndpointException;
+use Dspx93\Lxd\Exception\InvalidEndpointException;
 
 class Images extends AbstructEndpoint
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Endpoint;
+namespace Dspx93\Lxd\Endpoint;
 
-use Opensaucesystems\Lxd\Client;
-use Opensaucesystems\Lxd\HttpClient\Message\ResponseMediator;
+use Dspx93\Lxd\Client;
+use Dspx93\Lxd\HttpClient\Message\ResponseMediator;
 
 abstract class AbstructEndpoint
 {

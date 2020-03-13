@@ -1,8 +1,8 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Endpoint\Containers;
+namespace Dspx93\Lxd\Endpoint\Containers;
 
-use Opensaucesystems\Lxd\Endpoint\AbstructEndpoint;
+use Dspx93\Lxd\Endpoint\AbstructEndpoint;
 
 class Logs extends AbstructEndpoint
 {

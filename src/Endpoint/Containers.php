@@ -1,10 +1,10 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Endpoint;
+namespace Dspx93\Lxd\Endpoint;
 
-use Opensaucesystems\Lxd\Client;
-use Opensaucesystems\Lxd\HttpClient\Message\ResponseMediator;
-use Opensaucesystems\Lxd\Exception\SourceImageException;
+use Dspx93\Lxd\Client;
+use Dspx93\Lxd\HttpClient\Message\ResponseMediator;
+use Dspx93\Lxd\Exception\SourceImageException;
 
 class Containers extends AbstructEndpoint
 {
@@ -314,7 +314,7 @@ class Containers extends AbstructEndpoint
      * machines.
      *
      * Example: Migrate container
-     *  $lxd2 = new \Opensaucesystems\Lxd\Client($adapter, '1.0', 'https://lxd2.example.com:8443');
+     *  $lxd2 = new \Dspx93\Lxd\Client($adapter, '1.0', 'https://lxd2.example.com:8443');
      *  $lxd->containers->migrate($lxd2, 'test');
      *
      * @param  object $destination lxd client Instance to destination lxd server
@@ -322,7 +322,7 @@ class Containers extends AbstructEndpoint
      * @param  bool   $wait Wait for operation to finish
      * @return object
      */
-    public function migrate(\Opensaucesystems\Lxd\Client $destination, $name, $wait = false)
+    public function migrate(\Dspx93\Lxd\Client $destination, $name, $wait = false)
     {
         return $destination->containers->create($name, $this->initMigration($name), $wait);
     }

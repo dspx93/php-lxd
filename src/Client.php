@@ -1,13 +1,13 @@
 <?php
 
-namespace Opensaucesystems\Lxd;
+namespace Dspx93\Lxd;
 
-use Opensaucesystems\Lxd\Exception\InvalidEndpointException;
-use Opensaucesystems\Lxd\Exception\ClientConnectionException;
-use Opensaucesystems\Lxd\Exception\ServerException;
-use Opensaucesystems\Lxd\HttpClient\Plugin\PathPrepend;
-use Opensaucesystems\Lxd\HttpClient\Plugin\PathTrimEnd;
-use Opensaucesystems\Lxd\HttpClient\Plugin\LxdExceptionThower;
+use Dspx93\Lxd\Exception\InvalidEndpointException;
+use Dspx93\Lxd\Exception\ClientConnectionException;
+use Dspx93\Lxd\Exception\ServerException;
+use Dspx93\Lxd\HttpClient\Plugin\PathPrepend;
+use Dspx93\Lxd\HttpClient\Plugin\PathTrimEnd;
+use Dspx93\Lxd\HttpClient\Plugin\LxdExceptionThower;
 use Http\Client\Common\HttpMethodsClient;
 use Http\Client\Common\Plugin;
 use Http\Client\Common\PluginClient;

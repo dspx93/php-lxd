@@ -1,6 +1,6 @@
 <?php
 
-namespace Opensaucesystems\Lxd\Endpoint;
+namespace Dspx93\Lxd\Endpoint;
 
 class Certificates extends AbstructEndpoint
 {
