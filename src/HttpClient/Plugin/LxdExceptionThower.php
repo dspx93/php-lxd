@@ -20,13 +20,11 @@ class LxdExceptionThower implements Plugin
     /**
      * {@inheritdoc}
      */
-    public function handleRequest(RequestInterface $request, callable $next, callable $first)
+    public function handleRequest(RequestInterface $request, callable $next, callable $first) : \Http\Promise\Promise
     {
-        $promise = $next($request);
-
-        return $promise->then(function (ResponseInterface $response) use ($request) {
+        return $next($request)->then(function (ResponseInterface $response) use ($request) {
             return $response;
-        }, function (\Exception $e) use ($request) {
+        }, function (\Http\Client\Exception $e) use ($request) {
             if (get_class($e) === HttpException::class) {
                 $response = $e->getResponse();
 
