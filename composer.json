@@ -3,19 +3,23 @@
     "type": "library",
     "description": "PHP-based API wrapper for LXD REST API.",
     "keywords": [
-        "opensaucesystems",
         "wrapper",
         "api",
         "client",
         "lxd"
     ],
-    "homepage": "https://git.oss.place/opensaucesystems/lxd",
     "license": "MIT",
     "authors": [
         {
             "name": "Ashley Hood",
             "email": "ashley@opensauce.systems",
             "homepage": "https://www.opensauce.systems",
+            "role": "Developer"
+        },
+        {
+            "name": "Dennis Sprenger",
+            "email": "dennis@mylabs.me",
+            "homepage": "https://mylabs.me",
             "role": "Developer"
         }
     ],
@@ -38,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Opensaucesystems\\Lxd\\": "src"
+            "Dspx93\\Lxd\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Opensaucesystems\\Lxd\\Tests\\": "tests"
+            "Dspx93\\Lxd\\Tests\\": "tests"
         }
     },
     "scripts": {
