@@ -1,5 +1,5 @@
 {
-    "name": "opensaucesystems/lxd",
+    "name": "dspx93/php-lxd",
     "type": "library",
     "description": "PHP-based API wrapper for LXD REST API.",
     "keywords": [
